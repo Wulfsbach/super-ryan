@@ -1,0 +1,111 @@
+{
+	
+			"frames": [
+				{
+					"filename": "walk001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 97
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 68,
+						"h": 97
+					}
+				},
+				{
+					"filename": "jump",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 95
+					},
+					"frame": {
+						"x": 1,
+						"y": 100,
+						"w": 67,
+						"h": 95
+					}
+				},
+				{
+					"filename": "walk002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 95
+					},
+					"frame": {
+						"x": 1,
+						"y": 197,
+						"w": 67,
+						"h": 95
+					}
+				},
+				{
+					"filename": "idle",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 66,
+						"h": 93
+					},
+					"frame": {
+						"x": 1,
+						"y": 294,
+						"w": 66,
+						"h": 93
+					}
+				},
+				{
+					"filename": "walk003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 66,
+						"h": 93
+					},
+					"frame": {
+						"x": 1,
+						"y": 389,
+						"w": 66,
+						"h": 93
+					}
+				}
+			]
+	
+}

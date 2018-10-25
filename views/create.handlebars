@@ -1,9 +1,73 @@
-<h1>Create</h1>
+<main id="create-screen">
+	<!--Choose if New or Existing-->
+	<div id="login">
+		<h3>Are you a New or Existing Player?</h3>
+		<div class="login-bottom">
+			<a id="new" class="waves-effect waves-light btn">New</a>
+			<a id="existing" class="waves-effect waves-light btn">Existing</a>
+		</div>
+	</div>
+	<!--New Create-->
+	<div id="new-create" class="hide">
+		<h3>What is your name?</h3>
+		<form>
+			<div class="input-field">
+				<label for="name">Name</label>
+				<input placeholder="Enter 3 characters for your name" type="text" name="name" id="name" required min="3" max="3">
+				<p id="error-message"></p>
+			</div>
+			<div class="new-create-bottom">
+				<a id="name-submit" class="waves-effect waves-light btn">Next</a>
+			</div>
+		</form>
+	</div>
+	<!--New Select Character-->
+	<div id="new-character" class="hide">
+		<h3>Who would you like to play as?</h3>
+		<div id="new-character-container">
+			<div class="character" data="ryan">
+				<img src="/assets/players/ryan.png">
+				<h4>Ryan</h4>
+			</div>
+			<div class="character" data="andrew">
+				<img src="/assets/players/andrew.png">
+				<h4>Andrew</h4>
+			</div>
+			<div class="character" data="edward">
+				<img src="/assets/players/edward.png">
+				<h4>Edward</h4>
+			</div>
+			<div class="character" data="christine">
+				<img src="/assets/players/christine.png">
+				<h4>Christine</h4>
+			</div>
+		</div>
+	</div>
+	<!--Existing Select Player-->
+	<div id="existing-select" class="hide">
+		<h3>Select your profile</h3>
+		<div id="table-container">
+			<table>
+				<thead>
+					<th>Name</th>
+					<th>Character</th>
+					<th>High Score</th>
+				</thead>
+				<tbody id="existing-character">
+				</tbody>
+			</table>
+		</div>
+	</div>
 
-<!--Create a player screen-->
+	<!--Start Game-->
+	<div id="start-game" class="hide">
+		<h3>Welcome <span id="your-name"></span>, are you ready to begin?</h3>
+		<div id="start-game-bottom">
+			<img id="your-picture" src="">
+			<a id="start-button" href="/game" class="waves-effect waves-light btn">Start Game</a>
+		</div>
+	</div>
+</main>
 
-<!--Ask for user input for name -->
-
-<!--Send name to database (api route)-->
-
-<!--Start game (direct to game.handlebars)-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/create.js"></script>

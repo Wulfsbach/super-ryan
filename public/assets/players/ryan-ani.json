@@ -1,0 +1,88 @@
+{
+			"frames": [
+				{
+					"filename": "walk001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 96
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 71,
+						"h": 96
+					}
+				},
+				{
+					"filename": "walk002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 94
+					},
+					"frame": {
+						"x": 74,
+						"y": 1,
+						"w": 68,
+						"h": 94
+					}
+				},
+				{
+					"filename": "idle",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 66,
+						"h": 94
+					},
+					"frame": {
+						"x": 144,
+						"y": 1,
+						"w": 66,
+						"h": 94
+					}
+				},
+				{
+					"filename": "walk003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 94
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 66,
+						"h": 94
+					},
+					"frame": {
+						"x": 212,
+						"y": 1,
+						"w": 66,
+						"h": 94
+					}
+				}
+			]
+}

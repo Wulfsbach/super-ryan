@@ -1,8 +1,19 @@
 {
   "name": "super-ryan",
   "version": "1.0.0",
-  "description": "super ryan goes on quest to collect the most gingerale cans",
+  "description": "a game",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0",
+    "sequelize-heroku": "^2.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,16 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/christinebonk/super-ryan.git"
   },
-  "author": "christine ryan edward andrew",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/christinebonk/super-ryan/issues"
   },
-  "homepage": "https://github.com/christinebonk/super-ryan#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
-  }
+  "homepage": "https://github.com/christinebonk/super-ryan#readme"
 }
