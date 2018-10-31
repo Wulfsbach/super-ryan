@@ -68,12 +68,16 @@ function preload () {
 	this.load.tilemapTiledJSON('map', '../assets/map.json');
 	this.load.spritesheet('tiles', 'assets/tiles.png', {frameWidth: 70, frameHeight: 70});
 	this.load.image('can', '../assets/can.png');
+	this.load.audio('gol', '../assets/glo.mp3');
     this.load.atlas('player', playerImg,  playerJSON);
     this.load.atlas('enemy', '../assets/players/enemy.png', '../assets/players/enemy.json')
 }
+var music;
 
 //create
 function create() {
+	music = this.sound.add('gol');
+    music.play();
 	map = this.make.tilemap({key: 'map'});
 	groundTiles = map.addTilesetImage('tiles');
 	groundLayer = map.createDynamicLayer('World', groundTiles);
